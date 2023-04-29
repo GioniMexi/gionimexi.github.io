@@ -1,0 +1,70 @@
+/* Responsive design */
+@media screen and (max-width: 600px) {
+  /* Adjust layout for smaller screens */
+}
+
+/* Grid layout */
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+/* Flexbox layout */
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Custom fonts */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* CSS animations */
+.button {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #F8B195;
+}
+
+/* Parallax scrolling */
+.bg-image {
+  background-image: url('bg-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  background-attachment: fixed;
+}
+
+/* Background patterns */
+body {
+  background-image: url('https://blog.depositphotos.com/wp-content/uploads/2017/07/Soothing-nature-backgrounds-2.jpg');
+}
+
+/* Minimalism */
+body {
+  background-color: #fff;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #F67280;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
