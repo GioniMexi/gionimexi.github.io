@@ -42,22 +42,12 @@ body {
 
 /* Background patterns */
 body {
-  background-image: url('https://blog.depositphotos.com/wp-content/uploads/2017/07/Soothing-nature-backgrounds-2.jpg');
+  background-image: url('https://img.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg?w=1380&t=st=1682793467~exp=1682794067~hmac=c8b16509be86bf5cbb578268d869e5b089b803e12a29432daf9d4afc96b0344e');
+  opacity: 1.0; /* adjust the value (0.0 to 1.0) to increase or decrease the transparency */
 }
-
-/* Minimalism */
-body {
-  background-color: #fff;
-  color: #333;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-}
-
-p {
-  line-height: 1.5;
-  margin-bottom: 20px;
+/* Fallback background color */
+.bg-image {
+  background-color: #000;
 }
 
 a {
